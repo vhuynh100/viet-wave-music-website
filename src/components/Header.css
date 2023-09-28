@@ -1,0 +1,65 @@
+.header {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 8px;
+    background-color: #0072b5; /* Background color for the navbar */
+}
+
+/*
+header {
+    background-color: #0072b5;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+*/
+
+h1 {
+    color: white;
+}
+
+.header-logo {
+    height: 5vmin;
+    pointer-events: none;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* NAVIGATION BAR */
+
+/* Reset default list styles */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation links */
+.navbar ul {
+    display: flex; /* Display the list items horizontally */
+    justify-content: flex-end; /* Center the items horizontally */
+    padding: 10px 0; /* Add some padding to the top and bottom */
+}
+
+.navbar li {
+    margin: 0 10px; /* Add spacing between the list items */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color for links */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    color: #cccccc;
+    /* background-color: #00639c; */
+}
